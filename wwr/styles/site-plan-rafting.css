@@ -46,7 +46,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rock Salt', cursive;
   color:black
-  
+
 }
 h2 {
   text-align: center;
@@ -59,9 +59,8 @@ hr {
 header {
   padding: 2em;
   text-align: center;
-  color: black
-  background-color: blue;
-
+  color: black;
+  background-color: var(--nav-hover-background-color);
 }
 header > h1, header > h2 {
   color: black;
@@ -111,7 +110,7 @@ nav  {
   display: flex;
 }
 nav a {
-  padding:1em
+  padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 38px;
@@ -123,10 +122,10 @@ nav a {
   margin: 0 auto;
 }
 nav a:link, nav a:visited {
-  color: green (--nav-link-color);
+  color: green;
 }
 nav a:hover {
-  color: green(--nav-hover-link-color);
+  color: green;
   background-color: var(--nav-hover-background-color);
 }
 .sitemap {
