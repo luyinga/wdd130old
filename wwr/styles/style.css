@@ -205,6 +205,7 @@ footer {
 .moveDown {
     margin-top: 3em;
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -246,6 +247,7 @@ footer {
         margin-top: 25px;
     }
 }
+
 
 
 
