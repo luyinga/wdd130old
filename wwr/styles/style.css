@@ -205,6 +205,20 @@ footer {
 .moveDown {
     margin-top: 3em;
 }
+.fa:hover {
+    opacity: 0.7;
+  }
+.onehand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px
+}
+hi {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    align-self: center;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
